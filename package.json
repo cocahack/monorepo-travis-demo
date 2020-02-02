@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "monorepo-travis-demo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {}
+}
