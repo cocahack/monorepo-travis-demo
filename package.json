@@ -4,5 +4,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {}
+  "scripts": {
+    "test:client": "cd packages/client && yarn test --watchAll=false",
+    "test:server": "cd packages/server && yarn test"
+  }
 }
